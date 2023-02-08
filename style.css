@@ -8,7 +8,9 @@ yellow: #ffd60a
 
 
 body {
-  background-color: #000814;
+  background-image: url("images/Brussels.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #8ECAE6;
   line-height: %;
@@ -47,6 +49,11 @@ a:hover {
   text-align: center;
 }
 
+#banksky-img {
+  width: 400px;
+  height: 400px;
+}
+
 
 .img-circle {
   border-radius: 50%;
@@ -73,6 +80,11 @@ a:hover {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 500px;
+
+    #banksky-img {
+      width: 300px;
+      height: 300px;
+    }
   }
 }
 
@@ -88,6 +100,10 @@ a:hover {
     box-shadow: 10px 5px 5px #023047 ;
   }
 
+  #banksky-img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -100,5 +116,10 @@ a:hover {
     width: 100px;
     height: 100px;
     box-shadow: 3px 3px 3px #023047 ;
+  }
+
+  #banksky-img {
+    width: 150px;
+    height: 150px;
   }
 }
