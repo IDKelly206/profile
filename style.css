@@ -1,31 +1,41 @@
-/* background-color,
-font-family,
-color,
-font-size
-line-height
-<body>. */
+/* color palette
+black : #000814
+purple: #001d3d
+dark blue: #003566
+dark yellow: #ffc300
+yellow: #ffd60a
+*/
 
 
 body {
-  background-color: #023047;
+  background-color: #000814;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #8ECAE6;
   line-height: %;
 }
+.card {
+  background-color: #003566;
+  border: 2px solid #ffd60a;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 10px 0px;
+}
 
 h1, h2, h3 {
-  color: #FFB703;
+  color: #ffc300;
   font-size: medium;
   line-height: 130%;
 }
 
+
+
 a {
-  color: #023047;
+  color: #ffd60a;
   text-decoration:none;
 }
 
 a:hover {
-  color: #FB8500;
+  color: #001d3d;
 }
 
 .container {
@@ -37,26 +47,20 @@ a:hover {
   text-align: center;
 }
 
-.card {
-  background-color:#219EBC;
-  border: 2px solid #FFB703;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  padding: 10px 0px;
-}
 
 .img-circle {
   border-radius: 50%;
 }
 
-
 .list-inline {
   list-style: none;
   padding-left: 0px;
 }
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+  font-size: medium;
 }
 
 #profile-pic {
